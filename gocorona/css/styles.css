@@ -1,0 +1,247 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+
+:root {
+    --main-bg-color: #FAFBFD;
+    --accent-color1: #EC5863;
+    --accent-color2: #4285F4;
+    --accent-color3: #587EEC;
+    --title-color:   #000;
+    --text-color:    #616161;
+    --button-text-color: #FCFDFE;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    font-family: 'Rubik';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 138.5%;
+    color: var(--text-color);
+    letter-spacing: 0.08em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+img {
+    width: 100%;
+}
+
+.section-title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--title-color);
+}
+
+.btn {
+    padding: 14px 29px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--button-text-color);
+    background: var(--accent-color1);
+    border-radius: 5px;
+}
+
+.wrapper {
+    max-width: 1057px;
+    margin: 0 auto;
+    /*padding: 0 15px;*/
+}
+
+/*----------------------- HEADER ---------------------*/
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    transition: .2s linear;
+    z-index: 11;
+}
+
+.header_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+
+.logo_wrap {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo-pic {
+    width: 40.22px;
+    height: 40px;
+}
+
+.header_logo-text {
+    /*padding-left: 5px;*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+
+.logo-text-color {
+    color: var(--accent-color1);
+}
+
+.nav_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 40px;
+}
+
+.header_item:last-child {
+    margin-right: 160px;
+}
+
+.header_link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.header_button {
+    background: var(--accent-color2);
+    z-index: 13;
+}
+
+/*----------------------- SECTION HERO ---------------------*/
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+    background: var(--main-bg-color);
+}
+
+.hero_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero_title {
+    max-width: 497px;
+    margin-bottom: 12px;
+}
+
+.hero_title-color {
+    color: var(--accent-color2);
+}
+
+.hero_desc {
+    max-width: 375px;
+    margin-bottom: 24px;
+}
+
+.img_wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 600px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero_img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 12;
+}
+
+.hero_bg {
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--accent-color1);
+    border-radius: 30px 0px 0px 30px;
+    z-index: 10;
+}
+
+.hero_watch {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
+
+.hero_watch-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: url('../img/svg/play_arrow-ico.svg') no-repeat center;
+}
+
+.hero_watch-desc {
+    margin-left: 12px;
+}
+
+.desc-one {
+    margin-bottom: 5px;
+    font-size: 13px;
+    line-height: 126%;
+    color: #B0B0B0;
+}
+
+.desc-two {
+    font-size: 9px;
+    line-height: 126%;
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #000;
+}
