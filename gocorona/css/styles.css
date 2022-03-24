@@ -99,7 +99,7 @@ img {
     left: 0;
     background: transparent;
     transition: .2s linear;
-    z-index: 11;
+    z-index: 999;
 }
 
 .header_wrap {
@@ -163,6 +163,29 @@ img {
     letter-spacing: 0.14em;
     color: #000;
     text-transform: uppercase;
+    position: relative;
+}
+
+.header_link:after {
+    display: block;
+    content: "";
+    background-color: #000;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header_link:hover:after,
+.header_link:focus:after,
+.header_link:active:after {
+    width: 100%;
 }
 
 .header_button {
