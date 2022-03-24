@@ -342,6 +342,7 @@ img {
 
 .experts {
     background: var(--main-bg-color);
+    margin-bottom: 79px;
 }
 
 .expert_wrap {
@@ -455,4 +456,142 @@ img {
 .video_img {
     width: 332px;
     height: 235px;
+}
+
+/*----------------------- SECTION ADVANTAGES ---------------------*/
+
+.advantages {
+    margin-bottom: 70px;
+}
+
+.advantages_wrap {
+    position: relative;
+}
+
+.advantages_title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.advantages_title {
+    width: 100%;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.advantages_title-color {
+    color: var(--accent-color1);
+}
+
+.advantages_desc {
+    width: 600px;
+}
+
+.advanages_items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 72px;
+    z-index: 100;
+}
+
+.advantages_item {
+    width: 278px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.item_img {
+    width: 87px;
+    height: 72px;
+    margin-bottom: 58px;
+}
+
+.item_title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.item_desc {
+    width: 227px;
+}
+
+.item_one {
+    width: 242px;
+}
+
+.features_box-7 {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 410px;
+    left: 10px;
+    border-radius: 16px;
+    transform: rotate(-30deg);
+    z-index: 3;
+}
+
+.features_box-8 {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    top: 210px;
+    left: 270px;
+    border-radius: 30px;
+    transform: rotate(105deg);
+    z-index: 3;
+}
+
+.features_box-9 {
+    width: 127px;
+    height: 127px;
+    position: absolute;
+    top: 350px;
+    left: 620px;
+    border-radius: 30px;
+    transform: rotate(-30deg);
+    z-index: 3;
+}
+
+.features_box-10 {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 140px;
+    right: 5px;
+    border-radius: 16px;
+    transform: rotate(-30deg);
+    z-index: 3;
+}
+
+/*----------------------- FOOTER ---------------------*/
+
+.footer_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    padding-bottom: 40px;
+}
+
+.footer_google-play {
+    width: 160px;
+    height: 55px;
+}
+
+.footer_app-store {
+    width: 165px;
+    height: 66px;
 }
