@@ -26,7 +26,7 @@
             burgerLine.classList.add('close');
         }
     })
-    
+
     menuLink.forEach(element => {
         element.addEventListener('click', () => {
             menuList.classList.remove('header_list-vis');
@@ -34,3 +34,19 @@
         })
     });
  }());
+
+ // PLAY VIDEO
+
+ (function(){
+    const videoPlay = document.querySelector('.video_ico');
+    const video = document.querySelector('.video');
+    videoPlay.addEventListener('click', () => {
+        if(video.paused) {
+            video.play();
+            videoPlay.classList.add('video_ico-hidden');
+        } else {
+            video.pause();
+            videoPlay.classList.remove('video_ico-hidden');
+        }
+    })
+ }())
