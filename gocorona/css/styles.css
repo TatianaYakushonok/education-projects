@@ -502,7 +502,6 @@ img {
 
 .video_wrap {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-top: 79px;
     padding-bottom: 116px;
@@ -828,6 +827,15 @@ img {
     .features_box-9 {
         left: 520px;
     }
+
+    .video_wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .experts_title {
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -909,10 +917,6 @@ img {
         width: 100%;
     }
 
-    .advantages_item {
-        width: 100%;
-    }
-
     .features_box-7,
     .features_box-8,
     .features_box-9,
@@ -921,7 +925,7 @@ img {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
 
     .header_logo {
         width: 40px;
