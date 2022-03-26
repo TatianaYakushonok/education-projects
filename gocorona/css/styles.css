@@ -502,7 +502,6 @@ img {
 
 .video_wrap {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-top: 79px;
     padding-bottom: 116px;
@@ -827,6 +826,15 @@ img {
 
     .features_box-9 {
         left: 520px;
+    }
+
+    .video_wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .experts_title {
+        margin-bottom: 25px;
     }
 }
 
