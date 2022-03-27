@@ -15,6 +15,21 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
 }
 
 /*===================================== HEADER ========================================*/
@@ -72,4 +87,49 @@ body {
 .fa-chevron-down {
     font-size: 32px;
     color: #fff;
+}
+
+/*===================================== SECTION PORTFOLIO ========================================*/
+
+.portfolio {
+    padding: 80px 0 115px 0;
+}
+
+.portfolio__title {
+    margin-bottom: 70px;
+}
+
+.portfolio__cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 540px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card:last-child,
+.card:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+.card__img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__title {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.card__subtitle {
+
 }
