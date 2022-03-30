@@ -1,0 +1,108 @@
+@media (max-width: 1140px) {
+
+    /*=================== SECTION PORTFOLIO ====================*/
+
+    .card {
+        width: calc(50% - 15px);
+    }
+
+    /*=================== FOOTER ====================*/
+
+    .footer {
+        padding: 40px 0 60px;
+    }
+
+    .footer__row {
+        text-align: center;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    /*=================== ОБЩИЕ ТЕГИ ====================*/
+
+    body {
+        font-size: 14px;
+    }
+
+    .section__title {
+        font-size: 32px;
+    }
+
+    /*=================== HEADER ====================*/
+
+    .header__title{
+        font-size: 32px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+    }
+
+    /*=================== SECTION PORTFOLIO ====================*/
+
+    .portfolio {
+        padding: 40px 0 60px;
+    }
+
+    .portfolio__title {
+        margin-bottom: 30px;
+    }
+
+    .portfolio__cards-wrapper {
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .card__link {
+        padding: 15px;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .card__img {
+        margin-bottom: 10px;
+    } 
+
+    .card__title {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    /*=================== FOOTER ====================*/
+
+    .footer__copyright-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .project {
+        padding: 40px 0 60px;
+    }
+
+    .project__img {
+        margin-bottom: 20px;
+    }
+
+    .project__description {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    /*=================== FOOTER ====================*/
+
+    .footer__row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
