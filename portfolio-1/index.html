@@ -10,19 +10,19 @@
     <title>Yakushonok Tatiana - frontend developer. Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header__title">
             Якушонок Татьяна
         </h1>
         <p class="header__subtitle">
             фрилансер, веб-разработчик, <br>создание сайтов
         </p>
-        <div class="header__arrow">
+        <a href="#portfolio" class="header__arrow">
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </div>
+        </a>
     </header>
     <main class="main">
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio__title section__title">
                     Портфолио
@@ -99,5 +99,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
